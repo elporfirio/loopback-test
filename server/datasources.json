@@ -1,0 +1,27 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "datos.json"
+  },
+  "mongodbfirio": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017/equipos",
+    "database": "equipos",
+    "password": "",
+    "name": "mongodbfirio",
+    "user": "",
+    "connector": "mongodb"
+  },
+  "mysqlfirio": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://root@localhost/equipos",
+    "database": "equipos",
+    "password": "",
+    "name": "mysqlfirio",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
